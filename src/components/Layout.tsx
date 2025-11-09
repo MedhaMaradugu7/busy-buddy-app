@@ -1,6 +1,5 @@
 import { Calendar, LayoutDashboard, Users, BarChart3, Settings } from "lucide-react";
 import { NavLink } from "./NavLink";
-import ExecutiveDashboard from "./pages/ExecutiveDashboard";
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
