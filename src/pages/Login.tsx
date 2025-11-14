@@ -45,6 +45,7 @@ const Login = () => {
       }
 
       toast.success("Logged in successfully!");
+      navigate(role === "secretary" ? "/secretary-dashboard" : "/executive-dashboard");
     } catch (error: any) {
       toast.error(error.message || "Failed to login");
     } finally {
